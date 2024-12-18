@@ -1,0 +1,20 @@
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Estudos Csharp.exe
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Estudos Csharp.deps.json
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Estudos Csharp.runtimeconfig.json
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Estudos Csharp.dll
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Estudos Csharp.pdb
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Dapper.dll
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.csproj.AssemblyReference.cache
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.AssemblyInfoInputs.cache
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.AssemblyInfo.cs
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.csproj.CoreCompileInputs.cache
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos .939B5E6B.Up2Date
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.dll
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\refint\Estudos Csharp.dll
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.pdb
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\Estudos Csharp.genruntimeconfig.cache
+C:\Users\Willian\Desktop\Estudos Csharp\Estudos Csharp\obj\Debug\net8.0\ref\Estudos Csharp.dll
