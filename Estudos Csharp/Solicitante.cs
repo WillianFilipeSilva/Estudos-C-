@@ -1,22 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Estudos_Csharp
 {
-    internal class Solicitante
+
+    [Table("Solicitantes")]
+    public class Solicitante
     {
-        private long id {  get; set; }
-        private String nome {  get; set; }
-        private String telefone { get; set; }
-        private List<Livro> livrosLocados { get; set; }
-        public Solicitante(string nome, string telefone, List<Livro> livrosLocados)
+
+        public Solicitante() { }
+
+        public Solicitante(string nome, string telefone)
         {
-            this.nome = nome;
-            this.telefone = telefone;
-            this.livrosLocados = livrosLocados;
+
+            if (string.IsNullOrEmpty(nome))
+            {
+                throw new ArgumentException("Nome é obrigatório!", nameof(nome));
+            }
+
+            if (string.IsNullOrEmpty(telefone))
+            {
+                throw new ArgumentException("Telefone é obrigatório!", nameof(telefone));
+            }
+
+            Nome = nome;
+            Telefone = telefone;
+            Locacoes = new List<LivroLocado>();
         }
+
+        [Key]
+        public int Id { get; private set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string Nome { get; set; }
+
+        [Required]
+        [MaxLength(15)]
+        public string Telefone { get; set; }
+
+        public List<LivroLocado> Locacoes { get; set; }
     }
 }

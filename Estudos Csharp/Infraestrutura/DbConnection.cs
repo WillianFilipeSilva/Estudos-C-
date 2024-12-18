@@ -1,25 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Npgsql;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Estudos_Csharp.Infraestrutura
 {
-    public class DbConnection : IDisposable
+    public class DbConnection : DbContext
     {
-        public NpgsqlConnection Connection { get; set; }
+        public DbSet<Livro> Livros { get; set; }
+        public DbSet<Solicitante> Solicitantes { get; set; }
+        public DbSet<LivroLocado> LivrosLocados { get; set; }
 
-        public DbConnection()
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            Connection = new NpgsqlConnection("Server=localhost;port=5432;Database=biblioteca;User Id=postgres; password=@pilar123");
-            Connection.Open();
+            optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=biblioteca;User Id=postgres;Password=@pilar123");
         }
 
-        public void Dispose()
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            Connection.Dispose();
+            modelBuilder.Entity<LivroLocado>()
+                .HasOne(ll => ll.Solicitante)
+                .WithMany(s => s.Locacoes)
+                .HasForeignKey(ll => ll.SolicitanteId);
+
+            modelBuilder.Entity<LivroLocado>()
+                .HasOne(ll => ll.Livro)
+                .WithMany()
+                .HasForeignKey(ll => ll.LivroId);
         }
     }
 }

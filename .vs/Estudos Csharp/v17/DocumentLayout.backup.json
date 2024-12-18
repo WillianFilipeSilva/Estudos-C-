@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\",
+  "WorkspaceRootPath": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\willian\\desktop\\estudos csharp\\estudos csharp\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\willian\\desktop\\estudos csharp\\estudos csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\infraestrutura\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\infraestrutura\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\willian\\desktop\\estudos csharp\\estudos csharp\\infraestrutura\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\infraestrutura\\livrolocadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\infraestrutura\\livrolocadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\livrolocado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\livrolocado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\infraestrutura\\solicitanterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\infraestrutura\\solicitanterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\solicitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\solicitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\infraestrutura\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\infraestrutura\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\willian\\desktop\\estudos csharp\\estudos csharp\\infraestrutura\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\infraestrutura\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|c:\\users\\dev\\desktop\\estudos-c-\\estudos csharp\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D08B30-39B7-4C76-8C11-A6D5DAE1CC8E}|Estudos Csharp\\Estudos Csharp.csproj|solutionrelative:estudos csharp\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +41,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 188,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -39,53 +55,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Livro.cs",
-              "RelativeDocumentMoniker": "Estudos Csharp\\Livro.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Livro.cs",
-              "RelativeToolTip": "Estudos Csharp\\Livro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Principal.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\Principal.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Principal.cs",
+              "RelativeToolTip": "Estudos Csharp\\Principal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T02:54:47.843Z",
+              "WhenOpened": "2024-12-18T15:13:06.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Infraestrutura\\LivroRepository.cs",
-              "RelativeDocumentMoniker": "Estudos Csharp\\Infraestrutura\\LivroRepository.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Infraestrutura\\LivroRepository.cs*",
-              "RelativeToolTip": "Estudos Csharp\\Infraestrutura\\LivroRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Livro.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\Livro.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Livro.cs",
+              "RelativeToolTip": "Estudos Csharp\\Livro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T02:53:05.938Z",
+              "WhenOpened": "2024-12-18T20:42:34.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\LivroRepository.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\Infraestrutura\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\LivroRepository.cs",
+              "RelativeToolTip": "Estudos Csharp\\Infraestrutura\\LivroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:04:04.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Solicitante.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Solicitante.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\Solicitante.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Solicitante.cs",
+              "RelativeToolTip": "Estudos Csharp\\Solicitante.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:16:40.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SolicitanteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\SolicitanteRepository.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\Infraestrutura\\SolicitanteRepository.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\SolicitanteRepository.cs",
+              "RelativeToolTip": "Estudos Csharp\\Infraestrutura\\SolicitanteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:56:15.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DbConnection.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Infraestrutura\\DbConnection.cs",
-              "RelativeDocumentMoniker": "Estudos Csharp\\Infraestrutura\\DbConnection.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Infraestrutura\\DbConnection.cs",
-              "RelativeToolTip": "Estudos Csharp\\Infraestrutura\\DbConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "LivroLocado.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\LivroLocado.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\LivroLocado.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\LivroLocado.cs",
+              "RelativeToolTip": "Estudos Csharp\\LivroLocado.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T02:39:51.96Z",
+              "WhenOpened": "2024-12-18T15:17:24.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LivroLocadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\LivroLocadoRepository.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\Infraestrutura\\LivroLocadoRepository.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\LivroLocadoRepository.cs",
+              "RelativeToolTip": "Estudos Csharp\\Infraestrutura\\LivroLocadoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:05:40.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Program.cs",
-              "RelativeDocumentMoniker": "Estudos Csharp\\Program.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\Estudos Csharp\\Estudos Csharp\\Program.cs",
-              "RelativeToolTip": "Estudos Csharp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\DbConnection.cs",
+              "RelativeDocumentMoniker": "Estudos Csharp\\Infraestrutura\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Infraestrutura\\DbConnection.cs",
+              "RelativeToolTip": "Estudos Csharp\\Infraestrutura\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T02:20:09.979Z",
+              "WhenOpened": "2024-12-18T02:39:51.96Z",
               "EditorCaption": ""
             }
           ]

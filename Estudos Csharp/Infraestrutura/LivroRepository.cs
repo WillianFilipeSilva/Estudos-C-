@@ -1,36 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Dapper;
+using Estudos_Csharp;
+using Microsoft.EntityFrameworkCore;
 
 namespace Estudos_Csharp.Infraestrutura
 {
-    internal class LivroRepository
+    public class LivroRepository
     {
-        public bool Add(Livro livro)
+        private readonly DbConnection _context;
+
+        public LivroRepository()
         {
-            using var conn = new DbConnection();
+            _context = new DbConnection();
+        }
 
-            string query = @"INSERT INTO public.livros(
-	                        nome, autor, preco, lancamento)
-	                        VALUES (@nome, @autor, @preco, @lancamento);";
-
-            var result = conn.Connection.Execute(sql: query, param: livro);
-
-            return result == 1;
+        public void Add(Livro livro)
+        {
+            _context.Livros.Add(livro);
+            _context.SaveChanges();
         }
 
         public List<Livro> GetAll()
         {
-            using var conn = new DbConnection();
-
-            string query = @"SELECT * FROM public.livros;";
-
-            var livros = conn.Connection.Query<Livro>(sql: query);
-
-            return livros.ToList();
+            return _context.Livros.ToList();
         }
     }
 }

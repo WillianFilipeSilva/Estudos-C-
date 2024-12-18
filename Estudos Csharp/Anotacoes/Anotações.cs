@@ -105,11 +105,13 @@ namespace Estudos_Csharp.Anotacoes
             Console.WriteLine("14. Aggregate: " + acumulado);
         }
 
+        /*
         public static void Main(string[] args)
         {
             LinqExemplos exemplos = new LinqExemplos();
             exemplos.ExecutarExemplos();
             Console.ReadKey();
         }
+        */
     }
 }
