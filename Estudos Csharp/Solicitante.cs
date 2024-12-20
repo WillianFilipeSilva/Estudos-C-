@@ -5,29 +5,27 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Estudos_Csharp
 {
-
     [Table("Solicitantes")]
     public class Solicitante
     {
-
-        public Solicitante() { }
+        public Solicitante()
+        {
+            Locacoes = new List<LivroLocado>();
+            LocacoesFinalizadas = new List<LocacaoFinalizada>();
+        }
 
         public Solicitante(string nome, string telefone)
         {
-
             if (string.IsNullOrEmpty(nome))
-            {
                 throw new ArgumentException("Nome é obrigatório!", nameof(nome));
-            }
 
             if (string.IsNullOrEmpty(telefone))
-            {
                 throw new ArgumentException("Telefone é obrigatório!", nameof(telefone));
-            }
 
             Nome = nome;
             Telefone = telefone;
             Locacoes = new List<LivroLocado>();
+            LocacoesFinalizadas = new List<LocacaoFinalizada>();
         }
 
         [Key]
@@ -42,5 +40,6 @@ namespace Estudos_Csharp
         public string Telefone { get; set; }
 
         public List<LivroLocado> Locacoes { get; set; }
+        public List<LocacaoFinalizada> LocacoesFinalizadas { get; set; }
     }
 }

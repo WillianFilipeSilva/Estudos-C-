@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj": {}
+    "C:\\Users\\Willian\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj": {
+    "C:\\Users\\Willian\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj",
+        "projectUniqueName": "C:\\Users\\Willian\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj",
         "projectName": "Estudos Csharp",
-        "projectPath": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj",
-        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEV\\Desktop\\Estudos-C-\\Estudos Csharp\\obj\\",
+        "projectPath": "C:\\Users\\Willian\\Desktop\\Estudos-C-\\Estudos Csharp\\Estudos Csharp.csproj",
+        "packagesPath": "C:\\Users\\Willian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Willian\\Desktop\\Estudos-C-\\Estudos Csharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Willian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -54,11 +54,13 @@
               "target": "Package",
               "version": "[2.1.35, )"
             },
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
             },

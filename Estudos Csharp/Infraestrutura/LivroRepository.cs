@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Estudos_Csharp;
-using Microsoft.EntityFrameworkCore;
 
 namespace Estudos_Csharp.Infraestrutura
 {
@@ -14,15 +12,32 @@ namespace Estudos_Csharp.Infraestrutura
             _context = new DbConnection();
         }
 
-        public void Add(Livro livro)
+        public void Adicionar(Livro livro)
         {
             _context.Livros.Add(livro);
             _context.SaveChanges();
         }
 
-        public List<Livro> GetAll()
+        public List<Livro> RecuperarTodos()
         {
             return _context.Livros.ToList();
+        }
+
+        public Livro RecuperarPorId(int id)
+        {
+            return _context.Livros.FirstOrDefault(x => x.Id == id);
+        }
+
+        public void Atualizar(Livro livro)
+        {
+            _context.Livros.Update(livro);
+            _context.SaveChanges();
+        }
+
+        public void Remover(Livro livro)
+        {
+            _context.Livros.Remove(livro);
+            _context.SaveChanges();
         }
     }
 }
